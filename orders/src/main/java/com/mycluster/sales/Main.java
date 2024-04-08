@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Random;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,7 +24,6 @@ public class Main {
 class Orders {
 
     private final CustomerSource customerSource;
-
     public Orders(CustomerSource customerSource) {
         this.customerSource = customerSource;
     }
