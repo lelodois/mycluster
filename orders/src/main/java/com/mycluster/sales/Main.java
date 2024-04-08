@@ -1,4 +1,4 @@
-package com.mycluster.crm.custormers;
+package com.mycluster.sales;
 
 import java.util.ArrayList;
 import java.util.List;

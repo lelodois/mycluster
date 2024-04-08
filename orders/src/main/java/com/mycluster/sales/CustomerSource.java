@@ -1,4 +1,4 @@
-package com.mycluster.crm.custormers;
+package com.mycluster.sales;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
